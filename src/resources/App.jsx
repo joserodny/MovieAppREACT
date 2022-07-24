@@ -4,7 +4,6 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import Movie from "./pages/Movie";
 import Nav from "./partials/Nav";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/movie" element={<Movie />} />
               <Route path="*"element={
                       <main style={{ padding: "1rem" }}>
                         <p>There's nothing here!</p>
