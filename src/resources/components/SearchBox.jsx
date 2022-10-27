@@ -3,7 +3,7 @@ import React from 'react'
 export default function SearchBox(props) {
   return (
     <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-      <h1 className="title-font font-medium text-7xl text-stone-100 ">
+      <h1 className="title-font font-medium text-7xl text-red-700">
         Welcome.
       </h1>
       <p className="leading-relaxed mt-4 text-stone-100 mb-5">
